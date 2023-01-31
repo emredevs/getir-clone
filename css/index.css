@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  height: 44px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(123, 44, 197);
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  list-style-type: none;
+}
+.login ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 10%;
+}
+.login li {
+  width: 80px;
+}
+.logo {
+  padding: 10% 10%;
+}
+.logo img {
+  width: 30%;
+  height: 30%;
+}
+.logo samp {
+  font-size: large;
+}
+.mid {
+  background-image: url("../img/getirimg1.jpg");
+  background-repeat: round;
+  width: 100%;
+  height: 500px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 10%;
+  padding-left: 3%;
+  background-color: rgb(168, 147, 147);
+  color: blueviolet;
+  padding-bottom: 2%;
+}
+.user-info > h3 {
+  padding-right: 12%;
+}
+.user-info label > input {
+  width: 20%;
+  height: 35px;
+  border: none;
+  border-radius: 1px;
+}
+
+.user-info label > input:hover {
+  outline: 2.5px solid blueviolet;
+  transition: all 0.1s;
+}
+#tel {
+  width: 60%;
+}
+.user-info > button {
+  margin-right: 14%;
+  width: 100%;
+  margin-top: 5%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: blueviolet;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.user-info > button:hover {
+  transition: all 0.2s;
+  background-color: blueviolet;
+  color: yellow;
+}
+
+.contents {
+  margin: 5% 10%;
+  color: gray;
+}
+.contents ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  list-style-type: none;
+}
+.contents ul li img {
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+}
+.contents ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5% 0.5%;
+}
+
+.contents ul li:hover {
+  background-color: rgb(217, 206, 226);
+  transition: all 0.4s;
+}
+
+.container .opportunity {
+  background-color: aliceblue;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.opportunity h3 {
+  padding-right: 75%;
+}
+.container .opportunity-top {
+  background-color: blueviolet;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  color: white;
+  gap: 7%;
+}
+.container .opportunity .opportunity-top .aplication a img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.opportunity-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2%;
+  margin-top: 5%;
+}
+.opportunity-buttom .opportunity-buttom-box {
+  background-color: rgb(255, 255, 255);
+  width: 420px;
+  padding: 5% 0;
+  height: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+h4 {
+  color: blueviolet;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.footer .footer-box {
+  margin-top: 5%;
+  background-color: white;
+  height: 1px;
+  padding: 0 2%;
+}
+.footer .footer-box ul {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .footer-box ul li {
+  padding-top: 8;
+  margin-top: 10px;
+}
+
+.footer .footer-box ul li a {
+  text-decoration: none;
+  color: rgb(80, 76, 76);
+  font-style: normal;
+}
+
+.footer div > .aplication-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#barkod {
+  width: 100px;
+  margin-top: 40px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
